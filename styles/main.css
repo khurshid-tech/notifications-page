@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    background-color: white !important;
+}
+
+.notification-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.notification-card {
+    width: 100%;
+    padding: 0;
+}
+
+
+.notification-number {
+    background: hsl(224, 21%, 14%);
+    color: white;
+    height: 26px;
+    width: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.read {
+    cursor: pointer;
+}
+
+.read:hover {
+    color: hsl(219, 85%, 26%);
+    font-weight: 500;
+}
+
+
+.notification-list .item {
+    margin-bottom: 0.7rem;
+    padding: 1rem
+}
+
+.bg-blue {
+    background-color: hsl(211, 68%, 94%);
+}
+
+
+
+.notification-list .item img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.notification-list .item .name {
+    cursor: pointer;
+}
+
+.notification-list .item .name:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.notification-list .item .post {
+    color: hsl(219, 12%, 42%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.notification-list .item .post:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.notification-list .item .comment p {
+    line-height: 1.1;
+    margin-bottom: 0.3rem;
+}
+
+.online {
+    color: red;
+    font-size: 1.3rem;
+}
+
+.last-seen {
+    color: hsl(219, 14%, 63%);
+}
+
+.blue {
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.chess-img {
+    cursor: pointer;
+}
+
+
+@media (min-width: 992px) {
+    .notification-card {
+        width: 70%;
+        padding: 1rem;
+        background-color: white;
+    }
+
+    body {
+        background-color: hsl(210, 60%, 98%) !important;
+    }
+
+    .notification-list .item .comment p {
+        margin: 0;
+    }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notification Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container notification-wrapper my-4">
+    <div class="row notification-card">
+      <div class="heading d-flex justify-content-between mb-3">
+        <div class="title d-flex align-items-center">
+          <h3>Notifcation</h3>
+          <span class="ms-3 notification-number rounded">3</span>
+        </div>
+        <div class="read">Mark all as read</div>
+      </div>
+      <div class="notification-list">
+        <div class="item rounded d-flex bg-blue">
+          <img src="assets/images/avatar-mark-webber.webp" alt="">
+          <div class="comment d-flex flex-column ms-3">
+            <div class="d-flex">
+              <p><span class="fw-bold name">Mark Webber</span> Reacted to your recent post <span class="post">My first tournament today!</span> <span class="online">●</span> </p>
+            </div>
+            <div class="last-seen">1m ago</div>
+          </div>
+        </div>
+        <div class="item rounded d-flex bg-blue">
+          <img src="assets/images/avatar-angela-gray.webp" alt="">
+          <div class="comment d-flex flex-column ms-3">
+            <div>
+              <p><span class="fw-bold name">Angela Gray</span> Followed you. <span class="online">●</span></p>
+            </div>
+            <div class="last-seen">5m ago</div>
+          </div>
+        </div>
+        <div class="item rounded d-flex bg-blue">
+          <img src="assets/images/avatar-jacob-thompson.webp" alt="">
+          <div class="comment d-flex flex-column ms-3">
+            <div>
+              <p><span class="fw-bold name">Jacob Thompson</span> has joined your group <span class="blue">Chess Club</span> <span class="online">●</span></p>
+            </div>
+            <div class="last-seen">1 day ago</div>
+          </div>
+        </div>
+        <div class="item rounded d-flex">
+          <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="">
+          <div class="comment d-flex flex-column ms-3">
+            <div>
+              <p><span class="fw-bold name">Rizky Hasanuddin</span> sent you a private message </p>
+            </div>
+            <div class="last-seen">5 days ago</div>
+            <div class="comment-box comment-box border p-3 mt-2 bg-blue">
+              Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+            </div>
+          </div>
+        </div>
+        <div class="item rounded d-flex justify-content-between">
+          <div class="d-flex align-items-center">
+            <img src="assets/images/avatar-kimberly-smith.webp" alt="">
+            <div class="comment d-flex flex-column ms-3">
+              <div class="comment-with-image d-flex">
+                <div>
+                  <p><span class="fw-bold name">Kimberly Smith</span> Commented on your picture </p>
+                  <div class="last-seen">1 day ago</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img class="chess-img" src="assets/images/image-chess.webp" alt="">
+        </div>
+        <div class="item rounded d-flex">
+          <img src="assets/images/avatar-nathan-peterson.webp" alt="">
+          <div class="comment d-flex flex-column ms-3">
+            <div>
+              <p><span class="fw-bold name">Nathan Peterson</span> Reacted to your recent post <span class="post">5 end-game strategies to increase your win rate.</span> </p>
+            </div>
+          </div>
+        </div>
+        <div class="item rounded d-flex">
+          <img src="assets/images/avatar-anna-kim.webp" alt="">
+          <div class="comment d-flex flex-column ms-3">
+            <div>
+              <p><span class="fw-bold name">Anna Kim</span> left the group <span class="blue">Chess Club</span> </p>
+            </div>
+            <div class="last-seen">2 weeks ago</div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
